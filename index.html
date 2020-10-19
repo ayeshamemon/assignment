@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2 class="ui center aligned teal header">
+        <img src="./images/post.jfif">
+        <div class="content">
+          Posts
+        </div>
+      </h2>
+    <table id="table" class="ui selectable celled table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                
+            </tr>
+        </thead>
+        
+        <tbody id="table-body">
+            
+        </tbody>
+    
+    </table>
+
+    <div class="modal">
+        <div class="modal-content">
+            
+            <input class="modal-title" placeholder="Id" type="text" required>
+            <input class="modal-text" placeholder="Title" type="text" required>
+            <span class="modal-close-button">Close</span>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
